@@ -21,24 +21,9 @@ const d1  = "47 59 23 * * *";
 
 
 let slow  = schedule.scheduleJob(d1, function (){
-	const day = logCurrentDay();
-    const logStream = fs.createWriteStream(`./logs/${day}.log`, {flags:'a'});
-    multi(logStream);
+//	const day = logCurrentDay();
+//    const logStream = fs.createWriteStream(`./logs/${day}.log`, {flags:'a'});
+/* YOUR STRATEGY HERE */
 });
-
-let fast  = schedule.scheduleJob(h4, function (){
-	/*const day = logCurrentDay();
-    const logStream = fs.createWriteStream(`./logs/${day}_H4.log`, {flags:'a'});
-    multiFast(logStream);
-    */
-});
-
-let faster = schedule.scheduleJob(m5, function (){
-/*	const day = strat.logCurrentDay();
-        const logStream = fs.createWriteStream(`./logs/${day}.log`, {flags:'a'});
-	strat.fastest(logStream);
-    */
-});
-
 
 
