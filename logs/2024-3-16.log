@@ -1,0 +1,85 @@
+
+
+ ***** Sat Mar 16 2024 19:10:01 GMT+0100 (Central European Standard Time) *****  
+
+did not pass treshold condition on PEPEUSDT, price = 0.00000734, treshold = 0.000009 
+
+
+ ***** Sat Mar 16 2024 19:15:01 GMT+0100 (Central European Standard Time) *****  
+quantity 2000000Symbol : PEPEUSDT, quantity : 2000000 
+isoBuy and Borrow. 
+{
+  "symbol": "PEPEUSDT",
+  "orderId": 537151871,
+  "clientOrderId": "Fsp81kQ12PefLBAqe1FzwR",
+  "transactTime": 1710612902330,
+  "price": "0",
+  "origQty": "2000000",
+  "executedQty": "2000000",
+  "cummulativeQuoteQty": "14.56",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "BUY",
+  "fills": [
+    {
+      "price": "0.00000728",
+      "qty": "1272174",
+      "commission": "1272.17",
+      "commissionAsset": "PEPE",
+      "tradeId": 52832447
+    },
+    {
+      "price": "0.00000728",
+      "qty": "727826",
+      "commission": "727.83",
+      "commissionAsset": "PEPE",
+      "tradeId": 52832448
+    }
+  ],
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+{
+  "symbol": "PEPEUSDT",
+  "orderId": 537151871,
+  "clientOrderId": "Fsp81kQ12PefLBAqe1FzwR",
+  "transactTime": 1710612902330,
+  "price": "0",
+  "origQty": "2000000",
+  "executedQty": "2000000",
+  "cummulativeQuoteQty": "14.56",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "BUY",
+  "fills": [
+    {
+      "price": "0.00000728",
+      "qty": "1272174",
+      "commission": "1272.17",
+      "commissionAsset": "PEPE",
+      "tradeId": 52832447
+    },
+    {
+      "price": "0.00000728",
+      "qty": "727826",
+      "commission": "727.83",
+      "commissionAsset": "PEPE",
+      "tradeId": 52832448
+    }
+  ],
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+symbol PEPEUSDT, quantity : 1994000, stopPrice : 0.00000726, limit : 0.00000726 
+placed stop loss
+{
+  "symbol": "PEPEUSDT",
+  "orderId": 537152162,
+  "clientOrderId": "WG51eet4poexSwtCuqUIwu",
+  "transactTime": 1710612903830,
+  "type": "STOP_LOSS_LIMIT",
+  "side": "SELL",
+  "isIsolated": true
+}
