@@ -1,0 +1,173 @@
+
+
+ ***** Mon Mar 18 2024 16:17:57 GMT+0100 (Central European Standard Time) *****  
+
+did not pass treshold condition on BTCUSDC, price = 66819.8, treshold = 66800 
+
+
+ ***** Mon Mar 18 2024 16:18:57 GMT+0100 (Central European Standard Time) *****  
+quantity 0.001Symbol : BTCUSDC, quantity : 0.001 
+isoShort and Borrow. 
+{
+  "symbol": "BTCUSDC",
+  "orderId": 2147148822,
+  "clientOrderId": "TTxY1OJQSGhD3fHeIbxeRS",
+  "transactTime": 1710775138170,
+  "price": "0",
+  "origQty": "0.001",
+  "executedQty": "0.001",
+  "cummulativeQuoteQty": "66.67998",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "66679.98",
+      "qty": "0.001",
+      "commission": "0.06667998",
+      "commissionAsset": "USDC",
+      "tradeId": 72583731
+    }
+  ],
+  "marginBuyBorrowAsset": "BTC",
+  "marginBuyBorrowAmount": "0.001",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+{
+  "symbol": "BTCUSDC",
+  "orderId": 2147148822,
+  "clientOrderId": "TTxY1OJQSGhD3fHeIbxeRS",
+  "transactTime": 1710775138170,
+  "price": "0",
+  "origQty": "0.001",
+  "executedQty": "0.001",
+  "cummulativeQuoteQty": "66.67998",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "66679.98",
+      "qty": "0.001",
+      "commission": "0.06667998",
+      "commissionAsset": "USDC",
+      "tradeId": 72583731
+    }
+  ],
+  "marginBuyBorrowAsset": "BTC",
+  "marginBuyBorrowAmount": "0.001",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+symbol BTCUSDC, quantity : 0.00099, stopPrice : 66746.65, limit : 66779.99 
+placed stop loss
+{
+  "symbol": "BTCUSDC",
+  "orderId": 2147148848,
+  "clientOrderId": "Avb6BO38y8dHCvLUuG3sFS",
+  "transactTime": 1710775138984,
+  "type": "STOP_LOSS_LIMIT",
+  "side": "BUY",
+  "isIsolated": true
+}
+
+
+ ***** Mon Mar 18 2024 16:19:57 GMT+0100 (Central European Standard Time) *****  
+quantity 0.001Symbol : BTCUSDC, quantity : 0.001 
+isoShort and Borrow. 
+{
+  "symbol": "BTCUSDC",
+  "orderId": 2147154273,
+  "clientOrderId": "LQogp6qKnvqEdNK1WvmceI",
+  "transactTime": 1710775198285,
+  "price": "0",
+  "origQty": "0.001",
+  "executedQty": "0.001",
+  "cummulativeQuoteQty": "66.6841353",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "66684.62",
+      "qty": "0.00011",
+      "commission": "0.00733531",
+      "commissionAsset": "USDC",
+      "tradeId": 72583888
+    },
+    {
+      "price": "66684.61",
+      "qty": "0.00011",
+      "commission": "0.00733531",
+      "commissionAsset": "USDC",
+      "tradeId": 72583889
+    },
+    {
+      "price": "66684",
+      "qty": "0.00078",
+      "commission": "0.05201352",
+      "commissionAsset": "USDC",
+      "tradeId": 72583890
+    }
+  ],
+  "marginBuyBorrowAsset": "BTC",
+  "marginBuyBorrowAmount": "0.001",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+{
+  "symbol": "BTCUSDC",
+  "orderId": 2147154273,
+  "clientOrderId": "LQogp6qKnvqEdNK1WvmceI",
+  "transactTime": 1710775198285,
+  "price": "0",
+  "origQty": "0.001",
+  "executedQty": "0.001",
+  "cummulativeQuoteQty": "66.6841353",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "66684.62",
+      "qty": "0.00011",
+      "commission": "0.00733531",
+      "commissionAsset": "USDC",
+      "tradeId": 72583888
+    },
+    {
+      "price": "66684.61",
+      "qty": "0.00011",
+      "commission": "0.00733531",
+      "commissionAsset": "USDC",
+      "tradeId": 72583889
+    },
+    {
+      "price": "66684",
+      "qty": "0.00078",
+      "commission": "0.05201352",
+      "commissionAsset": "USDC",
+      "tradeId": 72583890
+    }
+  ],
+  "marginBuyBorrowAsset": "BTC",
+  "marginBuyBorrowAmount": "0.001",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+symbol BTCUSDC, quantity : 0.00099, stopPrice : 66750.82, limit : 66784.16 
+placed stop loss
+{
+  "symbol": "BTCUSDC",
+  "orderId": 2147154375,
+  "clientOrderId": "B0HUrXTw9oPTFtPxIXQqSL",
+  "transactTime": 1710775199092,
+  "type": "STOP_LOSS_LIMIT",
+  "side": "BUY",
+  "isIsolated": true
+}

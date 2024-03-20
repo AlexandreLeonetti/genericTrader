@@ -1,0 +1,352 @@
+
+
+ ***** Wed Mar 20 2024 10:26:57 GMT+0100 (Central European Standard Time) *****  
+quantity 1000Symbol : DOGEUSDT, quantity : 1000 
+isoBuy and Borrow. 
+{
+  "symbol": "DOGEUSDT",
+  "orderId": 4587733336,
+  "clientOrderId": "2tZih5DqrXGwHhDDGiLVlA",
+  "transactTime": 1710926818210,
+  "price": "0",
+  "origQty": "1000",
+  "executedQty": "1000",
+  "cummulativeQuoteQty": "133.69",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "BUY",
+  "fills": [
+    {
+      "price": "0.13369",
+      "qty": "1000",
+      "commission": "1",
+      "commissionAsset": "DOGE",
+      "tradeId": 582736079
+    }
+  ],
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+{
+  "symbol": "DOGEUSDT",
+  "orderId": 4587733336,
+  "clientOrderId": "2tZih5DqrXGwHhDDGiLVlA",
+  "transactTime": 1710926818210,
+  "price": "0",
+  "origQty": "1000",
+  "executedQty": "1000",
+  "cummulativeQuoteQty": "133.69",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "BUY",
+  "fills": [
+    {
+      "price": "0.13369",
+      "qty": "1000",
+      "commission": "1",
+      "commissionAsset": "DOGE",
+      "tradeId": 582736079
+    }
+  ],
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+symbol DOGEUSDT, quantity : 997, stopPrice : 0.13302, limit : 0.13288 
+placed stop loss
+{
+  "symbol": "DOGEUSDT",
+  "orderId": 4587733608,
+  "clientOrderId": "FmWQfr6IPobNTgA3PAxWu3",
+  "transactTime": 1710926819023,
+  "type": "STOP_LOSS_LIMIT",
+  "side": "SELL",
+  "isIsolated": true
+}
+
+
+ ***** Wed Mar 20 2024 10:27:57 GMT+0100 (Central European Standard Time) *****  
+quantity 1000Symbol : DOGEUSDT, quantity : 1000 
+isoBuy and Borrow. 
+{
+  "symbol": "DOGEUSDT",
+  "orderId": 4587742756,
+  "clientOrderId": "3bftQRbbmVPow1pIbfdnod",
+  "transactTime": 1710926878035,
+  "price": "0",
+  "origQty": "1000",
+  "executedQty": "1000",
+  "cummulativeQuoteQty": "134.21",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "BUY",
+  "fills": [
+    {
+      "price": "0.13421",
+      "qty": "1000",
+      "commission": "1",
+      "commissionAsset": "DOGE",
+      "tradeId": 582736536
+    }
+  ],
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+{
+  "symbol": "DOGEUSDT",
+  "orderId": 4587742756,
+  "clientOrderId": "3bftQRbbmVPow1pIbfdnod",
+  "transactTime": 1710926878035,
+  "price": "0",
+  "origQty": "1000",
+  "executedQty": "1000",
+  "cummulativeQuoteQty": "134.21",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "BUY",
+  "fills": [
+    {
+      "price": "0.13421",
+      "qty": "1000",
+      "commission": "1",
+      "commissionAsset": "DOGE",
+      "tradeId": 582736536
+    }
+  ],
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+symbol DOGEUSDT, quantity : 997, stopPrice : 0.13353, limit : 0.1334 
+placed stop loss
+{
+  "symbol": "DOGEUSDT",
+  "orderId": 4587742790,
+  "clientOrderId": "QWOLDBvdweavmdQFO2szGd",
+  "transactTime": 1710926878829,
+  "type": "STOP_LOSS_LIMIT",
+  "side": "SELL",
+  "isIsolated": true
+}
+
+
+ ***** Wed Mar 20 2024 10:34:57 GMT+0100 (Central European Standard Time) *****  
+
+did not pass treshold condition on DOGEUSDT, price = 0.13374, treshold = 0.134 
+
+
+ ***** Wed Mar 20 2024 10:39:57 GMT+0100 (Central European Standard Time) *****  
+
+did not pass treshold condition on DOGEUSDT, price = 0.13377, treshold = 0.134 
+
+
+ ***** Wed Mar 20 2024 11:24:57 GMT+0100 (Central European Standard Time) *****  
+quantity 0.1Symbol : ETHUSDT, quantity : 0.1 
+isoShort and Borrow. 
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736644724,
+  "clientOrderId": "5yM13nLwp7PiP7ayK0Jb2V",
+  "transactTime": 1710930298619,
+  "price": "0",
+  "origQty": "0.1",
+  "executedQty": "0.1",
+  "cummulativeQuoteQty": "322.46",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "3224.6",
+      "qty": "0.1",
+      "commission": "0.32246",
+      "commissionAsset": "USDT",
+      "tradeId": 1362069918
+    }
+  ],
+  "marginBuyBorrowAsset": "ETH",
+  "marginBuyBorrowAmount": "0.09010045",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736644724,
+  "clientOrderId": "5yM13nLwp7PiP7ayK0Jb2V",
+  "transactTime": 1710930298619,
+  "price": "0",
+  "origQty": "0.1",
+  "executedQty": "0.1",
+  "cummulativeQuoteQty": "322.46",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "3224.6",
+      "qty": "0.1",
+      "commission": "0.32246",
+      "commissionAsset": "USDT",
+      "tradeId": 1362069918
+    }
+  ],
+  "marginBuyBorrowAsset": "ETH",
+  "marginBuyBorrowAmount": "0.09010045",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+symbol ETHUSDT, quantity : 0.0997, stopPrice : 3226.85, limit : 3227.82 
+placed stop loss
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736644754,
+  "clientOrderId": "Pxvdr0RhWqU8S0sVtE7ymf",
+  "transactTime": 1710930299406,
+  "type": "STOP_LOSS_LIMIT",
+  "side": "BUY",
+  "isIsolated": true
+}
+
+
+ ***** Wed Mar 20 2024 11:29:57 GMT+0100 (Central European Standard Time) *****  
+quantity 0.1Symbol : ETHUSDT, quantity : 0.1 
+isoShort and Borrow. 
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736762033,
+  "clientOrderId": "ygUIY3GTjjZorn7ljsDkIR",
+  "transactTime": 1710930598294,
+  "price": "0",
+  "origQty": "0.1",
+  "executedQty": "0.1",
+  "cummulativeQuoteQty": "324.719",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "3247.19",
+      "qty": "0.1",
+      "commission": "0.324719",
+      "commissionAsset": "USDT",
+      "tradeId": 1362081869
+    }
+  ],
+  "marginBuyBorrowAsset": "ETH",
+  "marginBuyBorrowAmount": "0.1",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736762033,
+  "clientOrderId": "ygUIY3GTjjZorn7ljsDkIR",
+  "transactTime": 1710930598294,
+  "price": "0",
+  "origQty": "0.1",
+  "executedQty": "0.1",
+  "cummulativeQuoteQty": "324.719",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "3247.19",
+      "qty": "0.1",
+      "commission": "0.324719",
+      "commissionAsset": "USDT",
+      "tradeId": 1362081869
+    }
+  ],
+  "marginBuyBorrowAsset": "ETH",
+  "marginBuyBorrowAmount": "0.1",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+symbol ETHUSDT, quantity : 0.0997, stopPrice : 3249.46, limit : 3250.43 
+placed stop loss
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736762215,
+  "clientOrderId": "qTKAqvfjRyXL0vLiebyCRh",
+  "transactTime": 1710930599102,
+  "type": "STOP_LOSS_LIMIT",
+  "side": "BUY",
+  "isIsolated": true
+}
+
+
+ ***** Wed Mar 20 2024 11:34:57 GMT+0100 (Central European Standard Time) *****  
+quantity 0.1Symbol : ETHUSDT, quantity : 0.1 
+isoShort and Borrow. 
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736902897,
+  "clientOrderId": "k1xDH7jWVbXJakkeHYr4ba",
+  "transactTime": 1710930898311,
+  "price": "0",
+  "origQty": "0.1",
+  "executedQty": "0.1",
+  "cummulativeQuoteQty": "325.067",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "3250.67",
+      "qty": "0.1",
+      "commission": "0.325067",
+      "commissionAsset": "USDT",
+      "tradeId": 1362093919
+    }
+  ],
+  "marginBuyBorrowAsset": "ETH",
+  "marginBuyBorrowAmount": "0.1",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736902897,
+  "clientOrderId": "k1xDH7jWVbXJakkeHYr4ba",
+  "transactTime": 1710930898311,
+  "price": "0",
+  "origQty": "0.1",
+  "executedQty": "0.1",
+  "cummulativeQuoteQty": "325.067",
+  "status": "FILLED",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "side": "SELL",
+  "fills": [
+    {
+      "price": "3250.67",
+      "qty": "0.1",
+      "commission": "0.325067",
+      "commissionAsset": "USDT",
+      "tradeId": 1362093919
+    }
+  ],
+  "marginBuyBorrowAsset": "ETH",
+  "marginBuyBorrowAmount": "0.1",
+  "isIsolated": true,
+  "selfTradePreventionMode": "EXPIRE_MAKER"
+}
+symbol ETHUSDT, quantity : 0.0997, stopPrice : 3252.94, limit : 3253.92 
+placed stop loss
+{
+  "symbol": "ETHUSDT",
+  "orderId": 16736903361,
+  "clientOrderId": "kqV8Hoi4heTdGzGvCQ2oeN",
+  "transactTime": 1710930899090,
+  "type": "STOP_LOSS_LIMIT",
+  "side": "BUY",
+  "isIsolated": true
+}

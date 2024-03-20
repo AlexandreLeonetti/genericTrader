@@ -212,8 +212,12 @@ let all_params =  allParams.allParams;
     return par;
 }
 
-async function strat(side,  qty, symbol, asset,  stopLoss, limitLoss, logStream,tres=null) {
-
+//async function strat(side,  qty, symbol, asset,  stopLoss, limitLoss, tres=null, logStream) {
+async function strat({side,  qty, name, asset,  stop, limit, range=null}, logStream) {
+    let symbol = name;
+    let stopLoss =stop;
+    let limitLoss= limit;
+    let tres = range;
 
     let {precision, sizePrecision} = PARAMS(symbol);
 
@@ -256,65 +260,16 @@ async function treshold(side, symbol, price, t){ // check price, return true is 
 } 
 
 async function multi(logStream){
-    //
-    //const one = await strat("BUY", 0.060, "BTCFDUSD","BTC",  0.0025,0.0035,logStream,53500); 
-	
-//	await robot.sleep(100);
     
-     //await robot.sleep(400);
-    const two = await strat("BUY", 0.010, "BTCUSDT","BTC",  0.01,0.0150,logStream,70000); 
-    const sol= await strat("BUY", 1, "SOLUSDT","SOL",  0.025,0.029,logStream,143);//4.4
-    //await robot.sleep(500);
-    //const link = await strat("BUY", 7, "LINKUSDT","LINK",0.015,0.019,logStream,20.8);
-    //const ltc  = await strat("SELL",1 , "LTCBTC",  "LTC", 0.010,0.013,logStream, 0.00129);//1
-
-    //const wld = await strat("BUY", 18, "WLDUSDT", "WLD", 0.020, 0.025, logStream, 9.5);	
-    //const avax = await strat("BUY", 1, "AVAXUSDT", "AVAX", 0.005,0.006, logStream, 41);
-    //const ustc = await strat("BUY", 2000, "USTCUSDT", "USTC", 0.025, 0.0299, logStream,0.0375);
-    //const sei = await strat("BUY", 25, "SEIUSDT", "SEI", 0.01,0.013,logStream, 0.87);
-    await robot.sleep(500);
-
-    const stx = await strat("BUY", 20, "STXUSDT", "STX", 0.045, 0.050, logStream,3.1);
-    const fet =await strat("BUY", 25, "FETUSDT", "FET", 0.05, 0.055, logStream, 2.27);
- 
-    await robot.sleep(500);
-
-    const eth = await strat("BUY", 0.15, "ETHUSDT", "ETH", 0.01,0.015, logStream, 3800);
-    const pepe=await strat("BUY",5000000,"PEPEUSDT","PEPE", 0.050, 0.055, logStream,0.000009); 
-
-    await robot.sleep(500);
-
-    const paxgBtc= await strat("SELL", 0.1, "PAXGBTC", "PAXG", 0.01, 0.015, logStream, 0.033);
-    const agix=await strat("BUY", 25, "AGIXUSDT", "AGIX", 0.05,0.055, logStream, 1.25);
-    //const fil = await strat("BUY", 2.5, "FILFDUSD", "FIL", 0.045, 0.050, logStream, 8.5);
-
-    await robot.sleep(500);
-
-    const shib=await strat("BUY", 1000000,"SHIBUSDT", "SHIB", 0.055, 0.059, logStream, 0.000034);
-    const bnb = await strat("BUY", 0.6, "BNBUSDT", "BNB", 0.010,0.015,logStream,505); 
-	
-    await robot.sleep(500);
-
-    const bch = await strat("BUY", 0.15, "BCHUSDT", "BCH", 0.045, 0.05, logStream, 400);
-    const doge= await strat("BUY", 1000, "DOGEUSDT", "DOGE", 0.035,0.039, logStream, 0.17);
-
 }
 
 async function multiFast(logStream){
-	    //const one = await strat("BUY", 0.055, "BTCFDUSD","BTC",  0.0045,0.0055,logStream,53500); 
-
-    //const usdc = await strat("BUY",0.04, "BTCUSDC","BTC", 0.006,0.007,logStream,53500);
-           await robot.sleep(100);
-
    
    }
 
-async function fastest(logStream){
-    let today = logCurrentDay();
-     const pepe=await strat("BUY",2000000,"PEPEUSDT","PEPE", 0.0020, 0.0025, logStream,0.000005); 
-   console.log(today);
-    //const bnb = await strat("BUY", 0.25, "BNBUSDT", "BNB", 0.015,0.017,logStream,358); 
-    //const wld = await strat("BUY", 2, "WLDUSDT", "WLD", 0.020, 0.023, logStream, 7.7);	
+async function single (logStream){
+
+    const usdc = await strat("SELL",0.001, "BTCUSDC","BTC", 0.001,0.0015,logStream,66800);
 }
 
 
@@ -322,6 +277,7 @@ export {
     logCurrentDay,
     multi,
     multiFast,
-    fastest
+   single,
+    strat
 };
 
